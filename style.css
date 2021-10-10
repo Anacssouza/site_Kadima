@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+* {
+    font-family: 'Capriola', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    color: #4B0082;
+    background-color: white;
+    padding-right: 150px;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.cabecalho ul li {
+    display: inline;
+}
+
+.cabecalho {
+    display: table;
+    width: 100%;  
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 17px;
+}
+
+#menu {
+    text-align: right;
+    padding: 0px;
+    padding-right: 100px;
+}
+
+
+#titleK {
+    font-size: 30px;
+    font-weight: bold;
+    width: 20%;
+    padding: 0px 535px 10px 20px;
+    
+}
+
+li a:hover {
+    color: rgb(241, 32, 241)
+}
+
+#title {
+    font-size: 90px;
+
+}
+
+#titulos {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-bottom: 180px;
+    background-image: url('https://cdn.discordapp.com/attachments/896198617721884696/896613175317905428/juandesouza_frameworks-de-desenvolvedores.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment:fixed;
+    width: 100%;
+    text-shadow: rgb(54, 52, 56) 2px 2px;
+   
+}
+
+.informacao {
+    padding-top: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-shadow: rgb(54, 52, 56) 2px 2px;
+    background-color: #6200EE;
+    padding-bottom: 60px;
+}
+
+#titleSobre {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+#sobre {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.missaoVisao {
+    color: white;
+    font-size: 16px;
+}
+
+#titulosMissaoVisao {
+    font-size: 28px;
+}
+
+#missao {
+    display: inline;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#visao {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: none;
+}
+
+.valores, .inf {
+    color: white;
+    font-size: 16px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#titleValores {
+    text-align: center;
+    font-size: 28px;
+}
+
+#comprometimento {
+    color: white;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#parceria {
+    color: white;
+    float: none;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#inovacao {
+    float: left;
+    width: 50%;
+    text-align: center;
+    display: flex;
+}
+
+#aprendizado {
+    color: white;
+    float: none;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#titleServicos{
+    color: #4B0082;
+    text-align: center;
+    font-size: 32px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: #4B0082;
+    text-shadow: rgb(54, 52, 56) 1px 1px;
+    text-align: center;
+}
+
+.coluna{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.coluna1, .coluna2 {
+    float: right;
+    width: 33.3%;
+    text-align: center;
+}
+
+#descricao {
+    margin: 40px;
+    text-align: justify;
+}
+
+summary {
+    cursor: pointer;
+}
+
+#estrela {
+    color: #4B0082;
+    text-shadow: rgb(54, 52, 56) 1px 1px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#equipeTitle {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+#star {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#membros {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.equipe::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.equipe {
+    padding-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px; 
+    text-shadow: rgb(54, 52, 56) 2px 1px;
+    background-color: #6200EE;
+}
+
+
+#woody {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#buzz, #jessie, #alien, #slinky {
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+
+#betty, #forky, #sarge, #rex, #batata {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#rex:hover, #alien:hover , #jessie:hover , #forky:hover , #slinky:hover , #woody:hover, #buzz:hover , #batata:hover, #betty:hover , #sarge:hover{
+    filter: blur(3.5px);
+}
+
+#equipe  img {
+    border-radius: 50%;
+}
+
+.parceiros{
+    background-color: white;
+    color: #4B0082;
+    text-align: center;
+    display: table;
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 0;
+}
+
+#titleParceiros {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 0%;
+    text-shadow: rgb(54, 52, 56) 2px 1px;
+}
+
+img {
+    border-radius: 20%;
+}
+
+#ufsc, #labnita {
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    width: 33%;
+}
+
+.parceirosImagens {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#labegis {
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    width: 33%;
+}
+
+#ufsc:hover, #labnita:hover, #labegis:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 300px; 
+    background-color: #6200EE;
+    width: 100%;
+}
+
+.footer #contatosTitle{
+    font-size: 20px;
+    text-align: center;
+}
+
+#contatos {
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    width: 30%;
+    text-shadow: rgb(54, 52, 56) 2px 1px; 
+}
+
+.footer #redesTitle{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    text-shadow: rgb(54, 52, 56) 2px 1px; 
+
+}
+
+.redesSociais{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding-bottom: 40px; 
+    padding-left: 50px;
+}
+
+
+#fb {
+    width: 30%;
+    border-radius: 20%;
+    text-align: center;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+    color: white;
+}
+
+#linkedin {
+    width: 38%;
+    border-radius: 20%;
+    text-align: center;
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+    color: white;
+}
+
+#linkedin:hover, #insta:hover, #fb:hover  {
+    background-color: white;
+    color: black;
+}
+
+#insta {
+    width: 30%;
+    border-radius: 20%;
+    text-align: center;
+    padding: 1px;
+    float: right;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.formulario{
+    font-size: 17px;
+    color:white;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-left: 35px;
+
+}
+
+fieldset {
+    border: 0;
+}
+
+input, textarea, button {
+    border-radius: 5px;
+    resize: none;
+}
+
+
+
+form input[type='text'], form input[type='email'], form textarea {
+    padding: 0.2em;
+    border: 1px solid rgb(58, 11, 58);
+    box-shadow: 2px 2px 2px rgb(58, 11, 58);
+    
+}
+
+form input:focus, textarea:focus {
+    background:#BA55D3;
+}
+
+.botao {
+    font-size: 14px;
+    background:#BA55D3;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgb(58, 11, 58);
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: violet;
+    box-shadow: inset 2px 2px 2px #BA55D3;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    background-color: #4B0082;
+    font-size: 13px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
